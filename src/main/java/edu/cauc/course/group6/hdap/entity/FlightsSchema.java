@@ -1,0 +1,54 @@
+package edu.cauc.course.group6.hdap.entity;
+
+public class FlightsSchema {
+    // 年份
+    Integer year;
+    // 月份
+    Integer month;
+    // 日期
+    Integer day;
+    // 星期几
+    Integer dayOfWeek;
+    // 航空公司
+    String airline;
+    // 航班号
+    Integer flightNumber;
+    // 飞机编号
+    String tailNumber;
+    // 起飞机场
+    String originAirport;
+    // 目的机场
+    String destinationAirport;
+    // 计划起飞时间
+    Integer scheduledDeparture;
+    // 实际起飞时间
+    Integer departureTime;
+    // 起飞延误时间，负数表示提前起飞
+    Integer departureDelay;
+    // 起飞前滑行时间
+    Integer taxiOut;
+    // 离地时间
+    Integer wheelsOff;
+    // 计划飞行时间
+    Integer scheduledTime;
+    // 实际飞行时间
+    Integer elapsedTime;
+    // 空中时间
+    Integer airTime;
+    // 航线距离
+    Integer distance;
+    // 着地时间
+    Integer wheelsOn;
+    // 降落后滑行时间
+    Integer taxiIn;
+    // 计划到达时间
+    Integer scheduledArrival;
+    // 实际到达时间
+    Integer arrivalTime;
+    // 到达延误时间
+    Integer arrivalDelay;
+    // 是否转降
+    Boolean diverted;
+    // 是否取消
+    Boolean cancelled;
+}

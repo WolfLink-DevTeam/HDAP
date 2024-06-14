@@ -36,25 +36,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-
-        <!-- Hive JDBC Driver -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-jdbc</artifactId>
-            <version>4.0.0</version> <!-- 使用合适的版本 -->
-        </dependency>
-
-        <!-- Other Dependencies -->
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-common</artifactId>
-            <version>3.4.0</version> <!-- 使用合适的版本 -->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-hdfs</artifactId>
-            <version>3.4.0</version> <!-- 使用合适的版本 -->
-        </dependency>
     </dependencies>
 
     <build>
