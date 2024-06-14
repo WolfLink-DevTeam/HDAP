@@ -1,5 +1,8 @@
-package edu.cauc.course.group6.hdap.entity;
+package edu.cauc.course.group6.spark;
 
+import lombok.Data;
+
+@Data
 public class FlightsSchema {
     // 年份
     Integer year;
@@ -8,47 +11,47 @@ public class FlightsSchema {
     // 日期
     Integer day;
     // 星期几
-    Integer dayOfWeek;
+    Integer day_of_week;
     // 航空公司
     String airline;
     // 航班号
-    Integer flightNumber;
+    String flight_number;
     // 飞机编号
-    String tailNumber;
+    String tail_number;
     // 起飞机场
-    String originAirport;
+    String origin_airport;
     // 目的机场
-    String destinationAirport;
+    String destination_airport;
     // 计划起飞时间
-    Integer scheduledDeparture;
+    Integer scheduled_departure;
     // 实际起飞时间
-    Integer departureTime;
+    Integer departure_time;
     // 起飞延误时间，负数表示提前起飞
-    Integer departureDelay;
+    Integer departure_delay;
     // 起飞前滑行时间
-    Integer taxiOut;
+    Integer taxi_out;
     // 离地时间
-    Integer wheelsOff;
+    Integer wheels_off;
     // 计划飞行时间
-    Integer scheduledTime;
+    Integer scheduled_time;
     // 实际飞行时间
-    Integer elapsedTime;
+    Integer elapsed_time;
     // 空中时间
-    Integer airTime;
+    Integer air_time;
     // 航线距离
     Integer distance;
     // 着地时间
-    Integer wheelsOn;
+    Integer wheels_on;
     // 降落后滑行时间
-    Integer taxiIn;
+    Integer taxi_in;
     // 计划到达时间
-    Integer scheduledArrival;
+    Integer scheduled_arrival;
     // 实际到达时间
-    Integer arrivalTime;
+    Integer arrival_time;
     // 到达延误时间
-    Integer arrivalDelay;
+    Integer arrival_delay;
     // 是否转降
-    Boolean diverted;
+    Integer diverted;
     // 是否取消
-    Boolean cancelled;
+    Integer cancelled;
 }
