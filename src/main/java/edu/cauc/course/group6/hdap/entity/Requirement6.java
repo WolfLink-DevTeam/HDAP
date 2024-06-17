@@ -6,6 +6,6 @@ import lombok.Data;
 public class Requirement6 {
     private String origin_airport;
     private String destination_airport;
-    private double avg_air_time;
+    private double avg_time;
     private double avg_distance;
 }

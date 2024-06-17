@@ -44,4 +44,8 @@ public class RequirementController {
     public List<Requirement6> getAllRequirement6() {
         return requirementService.getAllRequirement6();
     }
+    @GetMapping("/requirement7")
+    public List<Requirement7> getAllRequirement7() {
+        return requirementService.getAllRequirement7();
+    }
 }

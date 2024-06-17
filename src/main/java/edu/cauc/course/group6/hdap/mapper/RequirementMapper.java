@@ -9,7 +9,7 @@ import java.util.List;
 
 @Mapper
 public interface RequirementMapper {
-    @Select("SELECT year, month, on_time_rate FROM requirement1")
+    @Select("SELECT * FROM requirement1")
     List<Requirement1> getAllRequirement1();
 
     @Select("SELECT airline, air_system_delay, security_delay, airline_delay, late_aircraft_delay, weather_delay FROM requirement2")
@@ -24,6 +24,9 @@ public interface RequirementMapper {
     @Select("SELECT origin_airport, flight_count FROM requirement5")
     List<Requirement5> getAllRequirement5();
 
-    @Select("SELECT origin_airport, destination_airport, avg_air_time, avg_distance FROM requirement6")
+    @Select("SELECT origin_airport, destination_airport, avg_time, avg_distance FROM requirement6")
     List<Requirement6> getAllRequirement6();
+
+    @Select("SELECT origin_airport, month, flight_count from requirement7")
+    List<Requirement7> getAllRequirement7();
 }

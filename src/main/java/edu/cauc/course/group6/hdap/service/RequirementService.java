@@ -38,4 +38,7 @@ public class RequirementService {
     public List<Requirement6> getAllRequirement6() {
         return requirementMapper.getAllRequirement6();
     }
+    public List<Requirement7> getAllRequirement7() {
+        return requirementMapper.getAllRequirement7();
+    }
 }
